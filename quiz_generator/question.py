@@ -60,7 +60,7 @@ class Question:
             
         self.answer_generation_function = answer_generation_function
         if answer_generation_function:
-            self.answers = answer_generation_function(inputs)
+            self.answers = answer_generation_function(self.question_inputs)
 
     def question_to_latex(self):
         """Write out a representation of the question to LaTeX"""
