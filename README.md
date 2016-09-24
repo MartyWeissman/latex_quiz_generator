@@ -2,6 +2,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/shuttle1987/latex_quiz_generator/badge.svg?branch=master)](https://coveralls.io/github/shuttle1987/latex_quiz_generator?branch=master)
 
 # LaTeX quiz generator
-Generating mathematical quiz material where you are making small changes to the numbers across versions is a tedious task.
+A Pythonic approach to writing mathematics assessments, to support reuse of questions, flexible generation of random questions, and rendering to LaTex and other formats.
 
-This software exists to make it much easier to create quizzes with randomized questions along with marking sheets.
+This software exists to (eventually) provide the mathematical community with a powerful method of creating and sharing assessment questions.  For comparison, [PGML](http://webwork.maa.org/wiki/Introduction_to_PGML) and [MathObjects](http://webwork.maa.org/wiki/Introduction_to_MathObjects) are used to create randomizable questions within [WebWork](http://webwork.maa.org/) that can be assessed by computers.  These are based on PERL, and are oriented towards web-served assessments.  This software is written in Python, and is oriented towards rendering in LaTeX for print.
